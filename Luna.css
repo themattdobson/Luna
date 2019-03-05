@@ -5,3 +5,8 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+body {
+  background-color: #343d46;
+  color: white;
+}
