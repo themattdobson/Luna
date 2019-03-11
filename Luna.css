@@ -10,3 +10,29 @@ body {
   background-color: #343d46;
   color: white;
 }
+
+
+.title {
+  font-family: 'Bungee', cursive;
+  font-size: 20em;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  font-size: 5em;
+}
+
+
+h2 {
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+p {
+  font-family: 'Kalam', cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
