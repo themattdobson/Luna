@@ -1,14 +1,20 @@
-body {
-  padding-top: 5rem;
-}
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
+html,
 body {
   background-color: #343d46;
   color: white;
+
+}
+
+
+
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
 }
 
 
@@ -16,6 +22,7 @@ body {
   font-family: 'Bungee', cursive;
   font-size: 20em;
   text-align: center;
+  padding-top: 5%;
 }
 
 .subtitle {
@@ -35,4 +42,91 @@ p {
   font-family: 'Kalam', cursive;
   font-size: 1.5em;
   text-align: center;
+}
+
+.story  {
+z-index: 1;
+}
+
+
+
+/* Parralax */
+
+
+
+
+
+.parallax {
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  z-index: -100;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.parallax__cover {
+  background: rgb(52,61,70);
+background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.8449754901960784) 91%, rgba(52,61,70,0.7161239495798319) 94%, rgba(52,61,70,0.3435749299719888) 97%, rgba(52,61,70,0) 100%);
+  display: block;
+  position: absolute;
+  padding-top: 200px;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 2000px;
+}
+
+.parallax__layer__0 {
+  -webkit-transform: translateZ(-300px) scale(4);
+          transform: translateZ(-300px) scale(4);
+}
+
+.parallax__layer__1 {
+  -webkit-transform: translateZ(-250px) scale(3.5);
+          transform: translateZ(-250px) scale(3.5);
+}
+
+.parallax__layer__2 {
+  -webkit-transform: translateZ(-200px) scale(3);
+          transform: translateZ(-200px) scale(3);
+}
+
+.parallax__layer__3 {
+  -webkit-transform: translateZ(-150px) scale(2.5);
+          transform: translateZ(-150px) scale(2.5);
+}
+
+.parallax__layer__4 {
+  -webkit-transform: translateZ(-100px) scale(2);
+          transform: translateZ(-100px) scale(2);
+}
+
+.parallax__layer__5 {
+  -webkit-transform: translateZ(-50px) scale(1.5);
+          transform: translateZ(-50px) scale(1.5);
+}
+
+.parallax__layer__6 {
+  -webkit-transform: translateZ(0px) scale(1);
+          transform: translateZ(0px) scale(1);
 }
