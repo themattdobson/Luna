@@ -52,7 +52,10 @@ background: rgb(52,61,70);
 background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.8449754901960784) 91%, rgba(52,61,70,0.7161239495798319) 94%, rgba(52,61,70,0.3435749299719888) 97%, rgba(52,61,70,0) 100%);
 }
 
+.rocket {
+  background-image: url("space_bkg.png");
 
+}
 
 /* Parralax */
 
