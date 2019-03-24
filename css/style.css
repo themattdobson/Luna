@@ -9,8 +9,9 @@ body {
 
 }
 
-
-
+.fade {
+  opacity: 1;
+}
 
 .starter-template {
   padding: 3rem 1.5rem;
@@ -46,6 +47,9 @@ p {
 
 .story  {
 z-index: 1;
+padding-top: 200px;
+background: rgb(52,61,70);
+background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.8449754901960784) 91%, rgba(52,61,70,0.7161239495798319) 94%, rgba(52,61,70,0.3435749299719888) 97%, rgba(52,61,70,0) 100%);
 }
 
 
@@ -62,17 +66,16 @@ z-index: 1;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   margin: 0 auto;
-  z-index: -100;
 }
 
 .parallax__layer {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -85,15 +88,15 @@ z-index: 1;
 }
 
 .parallax__cover {
-  background: rgb(52,61,70);
-background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.8449754901960784) 91%, rgba(52,61,70,0.7161239495798319) 94%, rgba(52,61,70,0.3435749299719888) 97%, rgba(52,61,70,0) 100%);
+  /* background: rgb(52,61,70);
+background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.8449754901960784) 91%, rgba(52,61,70,0.7161239495798319) 94%, rgba(52,61,70,0.3435749299719888) 97%, rgba(52,61,70,0) 100%); */
   display: block;
   position: absolute;
   padding-top: 200px;
   top: 100%;
   left: 0;
   right: 0;
-  height: 3000px;
+  height: 100vh;
 }
 
 .parallax__layer__0 {
@@ -119,6 +122,7 @@ background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.84497549
 .parallax__layer__4 {
   -webkit-transform: translateZ(-100px) scale(2);
           transform: translateZ(-100px) scale(2);
+
 }
 
 .parallax__layer__5 {
