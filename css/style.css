@@ -67,6 +67,12 @@ background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.84497549
   background-size: cover;
 }
 
+.asteroid {
+  background-image: url('../images/net.png');
+  background-size: cover;
+}
+
+
 .spinner    {
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
@@ -86,7 +92,14 @@ background: linear-gradient(0deg, rgba(52,61,70,1) 86%, rgba(52,61,70,0.84497549
     z-index: 4;
 }
 
+.text-section {
+padding-top: 50px;
+padding-bottom: 50px;
+}
 
+.end {
+  padding-bottom: 250px;
+}
 /* Parralax */
 
 
