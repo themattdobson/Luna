@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  $('#LaunchButton').click(function(){   $('#rocket').removeClass('rocket-launch-hidden').addClass('rocket-launch');
+  $('#LaunchButton').click(function(){   $('#rocket').toggleClass('rocket-launch');
    });
 });
 
